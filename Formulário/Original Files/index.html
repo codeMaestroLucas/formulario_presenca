@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/stlye.css">
+
+    <title>Formulário</title>
+
+</head>
+<body>
+    <main class="main">
+        <h1 class="title">Registro de Presença</h1>
+
+        <form action="#" class="form form_cargo">
+            <h2 class="subtitle">Função</h2>
+            <p class="text">Selecione sua função.</p>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="presidente_option" value="presidente">
+                <label for="funcao">Presidente</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="digov_option" value="digov">
+                <label for="funcao">Diretora de Governança, Planejamento e Inovação</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="dirofl_option" value="dirofl">
+                <label for="funcao">Diretora de Orçamento, Finanças e Logística</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="dirben_option" value="dirben">
+                <label for="funcao">Diretor de Benefícios e Relacionamento com o cidadão</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="dti_option" value="dti">
+                <label for="funcao">Diretor de Tecnologia da Informação</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="dgp_option" value="dgp">
+                <label for="funcao">Diretor de Gestão de Pessoas</label>
+                <br>
+            </div>
+
+
+            <div class="option">
+                <input type="radio" name="funcao" id="audger_option" required value="audger">
+                <label for="funcao">Auditor-Geral</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="correg_option" value="correg">
+                <label for="funcao">Corregedor-Geral</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="procurador_option" value="procurador">
+                <label for="funcao">Procurador-Geral</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="coordenador_geral_de_governanca_option" value="coordenador_geral">
+                <label for="funcao">Coordenador Geral de Governança e Gerenciamento de Riscos</label>
+                <br>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="funcao" id="outro_option" value="outro">
+                <label for="funcao">Outro</label>
+                <input type="text" name="outro_cargo_txt" id="outro_cargo_txt" disabled class="input_text">
+                <br>
+            </div>
+        </form>
+
+
+        <form action="#" class="form form_matricula">
+            <h2 class="subtitle">Insira sua matricula</h2>
+            <p class="text">Faremos uma verificação de sua matricula com o cargo selecionado.</p>
+            <div class="matricula">
+                <input type="text" name="matricula_input" id="matricula_input" required class="input_text">
+            </div>
+        </form>
+
+        <div class="btn">
+            <button type="submit">Enviar</button>
+        </div>
+        
+</main>
+
+    <script src="index.js"></script>
+</body>
+</html>
